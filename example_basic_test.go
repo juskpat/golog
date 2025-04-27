@@ -3,13 +3,13 @@ package logrus_test
 import (
 	"os"
 
-	"github.com/sirupsen/logrus"
+	"github.com/juskpat/golog"
 )
 
 func Example_basic() {
 	var log = logrus.New()
 	log.Formatter = new(logrus.JSONFormatter)
-	log.Formatter = new(logrus.TextFormatter)                     //default
+	log.Formatter = new(logrus.TextFormatter)                     // default
 	log.Formatter.(*logrus.TextFormatter).DisableColors = true    // remove colors
 	log.Formatter.(*logrus.TextFormatter).DisableTimestamp = true // remove timestamp from test output
 	log.Level = logrus.TraceLevel

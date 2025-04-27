@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	log "github.com/sirupsen/logrus"
+	log "github.com/juskpat/golog"
 	"github.com/stretchr/testify/assert"
 )
 

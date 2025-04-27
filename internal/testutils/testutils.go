@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/sirupsen/logrus"
+	. "github.com/juskpat/golog"
 
 	"github.com/stretchr/testify/require"
 )
